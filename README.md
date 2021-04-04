@@ -22,7 +22,7 @@ https://github.com/hlry/ecommerce-backend
 ## Walkthrough
 
 ## Sample
-
+![insomnia-screenshot](./assets/InsomniaScreenshot.png)
 
 ## Installation
 Clone this project from GitHub to your local machine.
