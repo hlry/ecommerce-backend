@@ -21,12 +21,14 @@ router.get('/', (req, res) => {
         attributes: ['category_name']
       },
       {
-        model: ProductTag,
-        attributes: ['tag_id'],
-        include: {
-          model: Tag,
-          attributes: ['tag_name']
-        }
+        model: Tag,
+        through: ProductTag,
+        // model: ProductTag,
+        // attributes: ['tag_id'],
+        // include: {
+        //   model: Tag,
+        //   attributes: ['tag_name']
+        // }
       }
     ]
   })
@@ -51,12 +53,14 @@ router.get('/:id', (req, res) => {
         attributes: ['id', 'category_name']
       },
       {
-        model: ProductTag,
-        attributes: ['tag_id'],
-        include: {
-          model: Tag,
-          attributes: ['tag_name']
-        }
+        model: Tag,
+        through: ProductTag,
+        // model: ProductTag,
+        // attributes: ['tag_id'],
+        // include: {
+        //   model: Tag,
+        //   attributes: ['tag_name']
+        // }
       }
     ]
   })
