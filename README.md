@@ -1,7 +1,6 @@
 # E-commerce Back End
 
-
-[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: Apache 2.0](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
 ## Table of Contents
 * [Description](#Description)
@@ -35,12 +34,22 @@ To install dependencies, run the following in your Command Line Interface (e.g.,
 - npm install express mysql2 sequelize bcrypt dotenv
 
 ## Usage
-Then run the following command:
-- npm start
+Then run the following command in your CLI to start:
+- node server.js
+
+To seed the tables, run the following command:
+- node seeds/index.js
+
+To create the database open mysql2 in your CLI and run the following commands:
+- mysql -u root -p
+- source db/schema.sql
+
+To exit:
+- quit;
 
 ## LICENSE
-This repository is licensed under the Apache License 2.0.
-Refer to https://opensource.org/licenses/Apache-2.0 for complete license terms.
+This repository is licensed under the ISC License.
+Refer to https://opensource.org/licenses/ISC for complete license terms.
 
 ## CONTRIBUTING
 This project is not accepting contributions but if you send a pull request, it could be accepted under the terms of the Apache 2.0 license.
