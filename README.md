@@ -20,6 +20,7 @@ Back end code using Express.js and Sequelize to manage a MySQL database of produ
 https://github.com/hlry/ecommerce-backend
 
 ## Walkthrough
+![put-post-delete](./assets/POSTputDELETE.webm)
 
 ## Sample
 ![insomnia-screenshot](./assets/InsomniaScreenshot.png)
